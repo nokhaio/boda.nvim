@@ -12,8 +12,10 @@ function colors.generate(mirage)
   if vim.o.background == 'dark' then
     if mirage then
       colors.accent = '#FFCC66'
-      colors.bg = '#1F2430'
-      colors.fg = '#CCCAC2'
+      -- colors.bg = '#1F2430'
+      colors.bg = '#0A0E14'
+      -- colors.fg = '#CCCAC2' -- b3b1ad
+      colors.fg = '#B3B1AD' -- b3b1ad
       colors.ui = '#707A8C'
 
       colors.tag = '#5CCFE6'
@@ -24,8 +26,10 @@ function colors.generate(mirage)
       colors.markup = '#F28779'
       colors.keyword = '#FFAD66'
       colors.special = '#FFDFB3'
-      colors.comment = '#6C7A8B'
-      colors.constant = '#DFBFFF'
+      -- colors.comment = '#6C7A8B' --626A73
+      colors.comment = '#626A73' --626A73
+      -- colors.constant = '#DFBFFF'
+      colors.constant = '#E6B450'
       colors.operator = '#F29E74'
       colors.error = '#FF6666'
       colors.lsp_parameter = '#D3B8F9'
@@ -58,7 +62,7 @@ function colors.generate(mirage)
       colors.ui = '#565B66'
 
       colors.tag = '#39BAE6'
-      colors.func = '#FFB454'
+      colors.func = '#FFB454' -- Yellow
       colors.entity = '#59C2FF'
       colors.string = '#AAD94C'
       colors.regexp = '#95E6CB'
@@ -66,8 +70,10 @@ function colors.generate(mirage)
       colors.keyword = '#FF8F40'
       colors.special = '#E6B673'
       colors.comment = '#636A72'
-      colors.constant = '#D2A6FF'
-      colors.operator = '#F29668'
+      -- colors.constant = '#D2A6FF'
+      colors.constant = '#E6B450'
+      -- colors.operator = '#F29668'
+      colors.operator = '#FF8F40'
       colors.error = '#D95757'
       colors.lsp_parameter = '#CB9FF8'
 
@@ -92,6 +98,9 @@ function colors.generate(mirage)
 
       colors.fg_idle = '#565B66'
       colors.warning = '#FF8F40'
+      colors.other = '#B3B1AD'
+      colors.type = colors.other
+      colors.pmenusel = '#E5B358'
     end
   else
     colors.accent = '#FFAA33'
