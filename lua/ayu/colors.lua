@@ -5,6 +5,17 @@ local colors = {
   -- This color is not part of `ayu` but matches the default style applied in VSCode.
   lsp_inlay_hint = '#969696',
 
+  bgColor = '#0A0E14',
+  textColor = '#B3B1AD',
+  punctuationColor = '#B3B1AD',
+  stringAndValueColor = '#C2D94C',
+  keywordTagColor = '#FF8F40',
+  commentColor = '#626A73',
+  typeColor = '#FFB454',
+  numberColor = '#E6B450',
+  declarationColor = '#B3B1AD',
+  dimmedColor = '#666666',
+  highlightColor = '#1B2733F2',
 }
 
 -- Colors:

@@ -30,7 +30,8 @@ function M.set_groups()
     MatchParen = { sp = colors.func, underline = true },
     ModeMsg = { fg = colors.string },
     MoreMsg = { fg = colors.string },
-    NonText = { fg = colors.guide_normal },
+    -- NonText = { fg = colors.guide_normal },
+    NonText = { fg = colors.commentColor },
     -- Pmenu = { fg = colors.fg, bg = colors.selection_inactive },
     Pmenu = { fg = colors.fg, bg = colors.bg },
     -- PmenuSel = { fg = colors.fg, bg = colors.selection_inactive, reverse = true },
@@ -366,6 +367,10 @@ function M.set_groups()
 
     -- Gitsigns.
     GitSignsCurrentLineBlame = { fg = colors.gutter_normal, italic = true },
+
+	-- SnackPicker
+	-- SnacksPickerPathHidden e
+	
   }
 
   groups = vim.tbl_deep_extend('force', groups, type(config.overrides) == 'function' and config.overrides() or config.overrides)
