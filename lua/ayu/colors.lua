@@ -4,7 +4,31 @@ local colors = {
 
   -- This color is not part of `ayu` but matches the default style applied in VSCode.
   lsp_inlay_hint = '#969696',
+
 }
+
+-- Colors:
+-- Black: #0A0E14
+-- Grey: #B3B1AD
+-- Light grey: #B3B1ADBF // 75% alpha
+-- Yellow: #E6B450
+-- Orange: #FFB454
+-- Red: #FF8F40
+-- Blue: #59C2FF
+
+-- {
+--     "bgColor": "#0A0E14",
+--     "textColor": "#B3B1AD",
+--     "punctuationColor": "#B3B1AD",
+--     "stringAndValueColor": "#C2D94C",
+--     "keywordTagColor": "#FF8F40",
+--     "commentColor": "#626A73",
+--     "typeColor": "#FFB454",
+--     "numberColor": "#E6B450",
+--     "declarationColor": "#B3B1AD",
+--     "dimmedColor": "#666666",
+--     "highlightColor": "#1B2733F2"
+-- }
 
 --- Generate colors based `vim.o.background` and a variant.
 ---@param mirage boolean: Whether to use `mirage` variant when `vim.o.background` is dark.
