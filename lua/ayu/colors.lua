@@ -136,6 +136,7 @@ function colors.generate(mirage)
       colors.other = '#B3B1AD'
       colors.type = colors.other
       colors.pmenusel = '#E5B358'
+	  colors.lightGray = '#B3B1ADBF'
     end
   else
     colors.accent = '#FFAA33'
