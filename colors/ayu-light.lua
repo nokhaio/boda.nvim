@@ -1,2 +1,2 @@
-vim.o.background = 'light'
-require('ayu').colorscheme()
+-- vim.o.background = 'light'
+-- require('ayu').colorscheme()
