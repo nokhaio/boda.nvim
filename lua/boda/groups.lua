@@ -13,11 +13,13 @@ function M.set_groups()
     FloatBorder = { fg = colors.comment },
     FloatTitle = { fg = colors.fg },
     ColorColumn = { bg = colors.line },
-    Cursor = { fg = colors.bg, bg = colors.fg },
+    Cursor = { fg = colors.bg, bg = colors.accent },
+	lCursor = { link = 'Cursor' },
+    -- Cursor = { fg = colors.accent, bg = colors.line },
     CursorColumn = { bg = colors.line },
     CursorLine = { bg = colors.line }, -- bg #00010a
-    CursorLineNr = { fg = colors.accent, bg = colors.line }, -- fg #B3B1ADCC
-    LineNr = { fg = colors.guide_normal }, -- fg #B3B1AD80
+    CursorLineNr = { fg = colors.other, bg = colors.line }, -- fg colors.accent
+    LineNr = { fg = colors.comment }, -- colors.guide_normal
 
     Directory = { fg = colors.func },
     ErrorMsg = { fg = colors.error },
@@ -27,12 +29,13 @@ function M.set_groups()
     FoldColumn = { bg = colors.bg },
     SignColumn = { bg = colors.bg },
 
-    MatchParen = { sp = colors.func, underline = true },
+    -- MatchParen = { sp = colors.func, underline = true },
+    -- MatchParen = { fg = colors.bg, bg = colors.accent, bold = true, nocombine = true },
+    MatchParen = { fg = colors.bg, bg = '#4d5566', bold = true, nocombine = true }, -- #4d55664d
     ModeMsg = { fg = colors.string },
     MoreMsg = { fg = colors.string },
     NonText = { fg = colors.guide_normal },
-    -- Pmenu = { fg = colors.fg, bg = colors.selection_inactive },
-    Pmenu = { fg = colors.fg, bg = colors.bg },
+    Pmenu = { fg = colors.fg, bg = colors.bg }, -- colors.selection_inactive 
     -- PmenuSel = { fg = colors.fg, bg = colors.selection_inactive, reverse = true },
     PmenuSel = { fg = colors.pmenusel, bg = colors.selection_inactive, reverse = false },
     Question = { fg = colors.string },

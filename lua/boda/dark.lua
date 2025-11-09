@@ -12,7 +12,7 @@ return {
   markup = '#F07178',
   keyword = '#FF8F40',
   special = '#E6B673',
-  comment = '#636A72',
+  comment = '#626A73',
   -- constant = '#D2A6FF',
   constant = '#E6B450',
   -- operator = '#F29668',

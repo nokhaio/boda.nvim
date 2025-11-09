@@ -43,6 +43,12 @@ function boda.colorscheme()
 
   vim.g.VM_theme_set_by_colorscheme = true -- Required for Visual Multi
   vim.o.termguicolors = true
+  vim.o.guicursor = 'n-v-c:block-Cursor'
+  -- vim.o.guicursor = table.concat({
+  --   'n-v-c:block-Cursor', -- normal, visual, command: block, использует группу Cursor
+  --   'i-ci-ve:ver25-Cursor', -- insert и др: vertical bar, тоже использует группу Cursor
+  --   'r-cr:hor20', -- replace: горизонтальная
+  -- }, ',')
   vim.g.colors_name = 'boda'
 
   colors.generate(config.mirage)
