@@ -117,7 +117,7 @@ function M.set_groups()
     ['@type.qualifier'] = { fg = colors.keyword },
     ['@variable'] = { fg = colors.fg },
     ['@variable.builtin'] = { fg = colors.func },
-    ['@variable.member'] = { fg = colors.tag },
+    ['@variable.member'] = { fg = colors.fg }, -- fg = colors.tag
     ['@variable.parameter'] = { fg = colors.fg },
     -- ['@module'] = { fg = colors.func },
     ['@module'] = { fg = colors.other },
