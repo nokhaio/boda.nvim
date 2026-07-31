@@ -20,9 +20,9 @@
 --     "highlightColor": "#1B2733F2" -- Selection: Highlighter
 -- }
 
-local dark = require('colors.dark')
-local light = require('colors.light')
-local dark_mirage = require('colors.mirage')
+local dark = require('boda.dark')
+local light = require('boda..light')
+local dark_mirage = require('boda.mirage')
 local colors = {
   white = '#FFFFFF',
   black = '#000000',
